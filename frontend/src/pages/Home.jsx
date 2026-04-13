@@ -29,7 +29,7 @@ const Home = () => {
 
     return matchesSearch && matchesCategory;
   });
-
+       //Improve UI styling
   return (
     <div style={{ background: "#0f0f0f", minHeight: "100vh", color: "white" }}>
       
@@ -41,7 +41,7 @@ const Home = () => {
         {/* SIDEBAR */}
         <Sidebar />
 
-        {/* MAIN CONTENT */}
+        {/* MAIN CONTENT */} 
         <div
           style={{
             flex: 1,

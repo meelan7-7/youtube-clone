@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = ({ setSearch }) => {
   return (
     <div
-      style={{
+      style={{                    //Improve UI styling
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
