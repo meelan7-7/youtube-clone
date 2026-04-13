@@ -46,8 +46,8 @@ const Home = () => {
           style={{
             flex: 1,
             padding: "10px 20px",
-            maxWidth: "1200px",   // ✅ FIX: prevents stretching
-            margin: "0 auto"      // ✅ centers content like YouTube
+            maxWidth: "1200px",   // ✅ FIX:prevents stretching
+            margin: "0 auto"      // ✅ centers content like YouTube 
           }}
         >
 
@@ -55,12 +55,12 @@ const Home = () => {
           <div
             style={{
               display: "flex",
-              gap: "10px",
+              gap: "10px",                     
               overflowX: "auto",
               paddingBottom: "10px"
             }}
           >
-            {["all", "education", "frontend", "backend", "css", "react"].map(cat => (
+            {["all", "education", "frontend", "backend", "css", "react"].map(cat => (                 //Home page UI
               <button
                 key={cat}
                 onClick={() => setCategory(cat)}
