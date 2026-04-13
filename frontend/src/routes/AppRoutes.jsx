@@ -4,7 +4,7 @@ import Login from "../pages/Login";
 import VideoPage from "../pages/VideoPage";
 import Channel from "../pages/Channel";
 import CreateChannel from "../pages/CreateChannel";
-import UploadVideo from "../pages/UploadVideo"; // ✅ NEW IMPORT , Cleanup and optimization
+import UploadVideo from "../pages/UploadVideo"; // ✅ NEW IMPORT
 
 const AppRoutes = () => {
   return (

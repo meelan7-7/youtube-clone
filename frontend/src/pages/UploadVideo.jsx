@@ -22,7 +22,7 @@ const UploadVideo = () => {
   };
 
   return (
-    <div style={{ padding: "20px" }}>       //Cleanup and optimization
+    <div style={{ padding: "20px" }}>
       <h2>Upload Video</h2>
 
       <input placeholder="Title"

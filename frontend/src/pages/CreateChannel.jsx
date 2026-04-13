@@ -22,7 +22,7 @@ const CreateChannel = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h2>Create Channel</h2>                  //Create Channel frontend page
+      <h2>Create Channel</h2>
 
       <input
         placeholder="Channel Name"
