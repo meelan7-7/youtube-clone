@@ -14,7 +14,7 @@ const Login = () => {
       // ✅ store token
       localStorage.setItem("token", res.data.token);
 
-      alert("Login successful");
+      alert("Login successful"); // Add token-based authentication
     } catch (err) {
       console.log(err);
       alert("Login failed");
