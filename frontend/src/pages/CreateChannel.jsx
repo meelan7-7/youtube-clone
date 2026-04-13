@@ -8,7 +8,7 @@ const CreateChannel = () => {
   });
 
   const createChannel = async () => {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token");    
 
     const res = await API.post("/channels", form, {
       headers: {
@@ -22,7 +22,7 @@ const CreateChannel = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h2>Create Channel</h2>
+      <h2>Create Channel</h2>                  //Create Channel frontend page
 
       <input
         placeholder="Channel Name"
