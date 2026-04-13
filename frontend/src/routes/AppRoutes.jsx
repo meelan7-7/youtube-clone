@@ -13,7 +13,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/video/:id" element={<VideoPage />} />
-        <Route path="/channel/:id" element={<Channel />} />
+        <Route path="/channel/:id" element={<Channel />} />   //Final project ready"
 
         {/* Existing */}
         <Route path="/create-channel" element={<CreateChannel />} />
