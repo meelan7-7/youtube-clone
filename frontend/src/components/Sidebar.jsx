@@ -11,7 +11,7 @@ const Sidebar = () => {
         top: 0
       }}
     >
-      {/* MAIN MENU */}
+      {/* MAIN MENU */}      
       <div style={{ marginBottom: "20px" }}>
         <p style={{ padding: "8px", borderRadius: "8px", cursor: "pointer" }}>
           🏠 Home
@@ -29,7 +29,7 @@ const Sidebar = () => {
 
       <hr style={{ borderColor: "#333" }} />
 
-      {/* CATEGORY SECTION ( UI ONLY ) */}
+      {/* CATEGORY SECTION ( UI ONLY ) */}         //Cleanup and optimization
       <div style={{ marginTop: "20px" }}>
         <p style={{ fontSize: "14px", color: "#aaa" }}>Explore</p>
 

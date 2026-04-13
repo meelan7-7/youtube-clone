@@ -5,7 +5,7 @@ const Header = ({ setSearch }) => {
     <div
       style={{                    //Improve UI styling
         display: "flex",
-        justifyContent: "space-between",
+        justifyContent: "space-between",  //Cleanup and optimization
         alignItems: "center",
         padding: "10px 20px",
         background: "#0f0f0f",
