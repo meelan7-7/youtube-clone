@@ -110,16 +110,16 @@ export const getVideosByChannel = async (req, res) => {
   try {
     const { channelId } = req.params;
 
-    // 🔥 Support BOTH field names
+    //  Support BOTH field names
     const videos = await Video.find({
       $or: [
         { channel: channelId },
         { channelId: channelId }
       ]
-    }); 
+    });
 
     res.json(videos);
-  } catch (error)  {
+  } catch (error) {
     res.status(500).json({ message: error.message });
   }
 };
