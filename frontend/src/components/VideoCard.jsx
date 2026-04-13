@@ -9,7 +9,7 @@ const VideoCard = ({ video }) => {
         color: "white",
         transition: "transform 0.2s ease",
       }}
-      onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.03)")}
+      onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.03)")}   //Created VideoCard
       onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
     >
       <Link

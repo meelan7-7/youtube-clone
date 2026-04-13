@@ -29,7 +29,7 @@ const Sidebar = () => {
 
       <hr style={{ borderColor: "#333" }} />
 
-      {/* CATEGORY SECTION (UI ONLY) */}
+      {/* CATEGORY SECTION ( UI ONLY ) */}
       <div style={{ marginTop: "20px" }}>
         <p style={{ fontSize: "14px", color: "#aaa" }}>Explore</p>
 
