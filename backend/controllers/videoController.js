@@ -116,10 +116,10 @@ export const getVideosByChannel = async (req, res) => {
         { channel: channelId },
         { channelId: channelId }
       ]
-    });
+    }); 
 
     res.json(videos);
-  } catch (error) {
+  } catch (error)  {
     res.status(500).json({ message: error.message });
   }
 };
