@@ -18,7 +18,7 @@ const AppRoutes = () => {
         {/* Existing */}
         <Route path="/create-channel" element={<CreateChannel />} />
 
-        {/* ✅ NEW ROUTE */}
+        {/* ✅ NEW ROUTE */}                                //Added routing with React Router
         <Route path="/upload" element={<UploadVideo />} />
       </Routes>
     </BrowserRouter>
