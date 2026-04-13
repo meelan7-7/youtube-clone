@@ -13,7 +13,7 @@ const router = express.Router();
 // ➕ Create channel (protected)
 router.post("/", auth, createChannel);
 
-// 👤 Get my channel (protected)
+// 👤 Get my channel ( protected )
 router.get("/me", auth, getMyChannel);
 
 // 📺 Get all channels

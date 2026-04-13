@@ -30,7 +30,7 @@ export const getChannelById = async (req, res) => {
   }
 };
 
-// 👤 Get My Channel (LOGGED IN USER)
+// 👤 Get My Channel ( LOGGED IN USER )
 export const getMyChannel = async (req, res) => {
   try {
     const channel = await Channel.findOne({ owner: req.user.id });
