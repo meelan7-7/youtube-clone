@@ -165,7 +165,7 @@ const VideoPage = () => {
               value={text}
               onChange={(e) => setText(e.target.value)}
               placeholder="Add comment"
-              style={{
+              style={{                              //VideoPage layout
                 padding: "10px",
                 width: "70%",
                 background: "#181818",
