@@ -33,7 +33,7 @@ const CreateChannel = () => {
 
       <input
         placeholder="Description"
-        onChange={(e) =>
+        onChange={(e) =>               //Fix 401 unauthorized issue
           setForm({ ...form, description: e.target.value })
         }
       />
