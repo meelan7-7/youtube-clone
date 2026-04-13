@@ -44,7 +44,7 @@ const Channel = () => {
         }}
       />
 
-      {/* 👤 CHANNEL INFO */}
+      {/* 👤 CHANNEL INFO */}      // Add channel page and dynamic routing
       <div style={{
         padding: "20px",
         display: "flex",
